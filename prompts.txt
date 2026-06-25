@@ -1,0 +1,22 @@
+hello chatGPT, how are you today? in my academy, we were tasked with building a full 7-page microfinance website. i want you to first of all, suggest a good color theme to use for projects like this and then draft me a good folder structure before we begin building. i want us to build with tailwind css.
+
+good. i have created a professional folder structure and i have installed tailwind. i have chosen the option 2 — premium banking theme you suggested.
+
+now we're going to build the page step by step.
+step 1 - the navbar - let the name of the microfinance be TT pay.
+so, let's build the navbar for TT Pay and give it a menu with drop down items linking the user to the different pages of the website. make the menu to be sticky and remember to make the footer sticky too when we get to the footer.
+
+next, let's build a premium banking hero section with a two-column layout, trust statistics, CTA buttons, and a professional finance illustration (after this prompt, chatgpt generated me an image instead of a code so i gave it another prompt and the code was built.)
+the second prompt - come on, i mean let's build the code, not the image. the hero section code to demonstrate all of this.
+
+let's go ahead to a 3-card feature section for why choose TT Pay
+
+now let's build a loan & savings products showcase section which would feature personal loan, business loan, and fixed savings loan. it should also have product cards, interest-rate badges, CTA buttons, and a clean banking style layout
+
+let's build the FAQ
+
+let's forget about the customer testimonials for now and let's build a high-converting CTA banner, followed by the footer to complete the homepage
+
+now our homepage is complete, let's go ahead and build the about page, while reusing the same navbar and footer for consistency
+
+good! now let's build the services page. remember the services tab on the navbar has nested items (loans, savings, and investments).
