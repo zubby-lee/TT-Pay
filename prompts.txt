@@ -20,3 +20,5 @@ let's forget about the customer testimonials for now and let's build a high-conv
 now our homepage is complete, let's go ahead and build the about page, while reusing the same navbar and footer for consistency
 
 good! now let's build the services page. remember the services tab on the navbar has nested items (loans, savings, and investments).
+
+great! now let's build the contact page.

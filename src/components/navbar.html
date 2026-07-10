@@ -1,0 +1,168 @@
+        <!-- HEADER -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
+
+        <nav class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+            <!-- LOGO -->
+            <a href="index.html" class="flex items-center gap-2">
+
+                <div class="w-10 h-10 rounded-lg bg-blue-700 flex items-center justify-center">
+                    <span class="text-white font-bold text-lg">TT Pay</span>
+                </div>
+
+                <span class="text-2xl font-bold text-gray-900">
+                    TT <span class="text-yellow-400">Pay</span>
+                </span>
+
+            </a>
+
+            <!-- DESKTOP MENU -->
+            <ul class="hidden lg:flex items-center gap-8 text-gray-700 font-medium">
+
+                <li>
+                    <a href="../index.html" class="hover:text-blue-700 transition">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html" class="hover:text-blue-700 transition">
+                        About
+                    </a>
+                </li>
+
+                <!-- SERVICES -->
+                <li class="relative group">
+                    <a href="services.html" class="hover:text-blue-700 transition">
+                        Services
+                    </a>
+
+                    <!-- <button class="hover:text-blue-700">
+                        Services
+                    </button> -->
+
+                    <ul class="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition">
+
+                        <li>
+                            <a href="loans.html" class="block px-5 py-3 hover:bg-gray-100">
+                                Loans
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="savings.html" class="block px-5 py-3 hover:bg-gray-100">
+                                Savings
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="investments.html" class="block px-5 py-3 hover:bg-gray-100">
+                                Investments
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li>
+                    <a href="contact.html" class="hover:text-blue-700 transition">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+            <!-- DESKTOP CTA -->
+            <div class="hidden lg:flex items-center gap-4">
+
+                <a href="#" class="font-medium hover:text-blue-700">
+                    Login
+                </a>
+
+                <a href="#"
+                class="bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition">
+                    Apply Now
+                </a>
+
+            </div>
+
+            <!-- MOBILE BUTTON -->
+            <button id="menu-btn" class="lg:hidden text-3xl">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+        <!-- MOBILE MENU -->
+        <div id="mobile-menu"
+            class="hidden lg:hidden bg-white border-t border-gray-200">
+
+            <div class="px-6 py-4 space-y-4">
+
+                <a href="../index.html"
+                class="block font-medium text-gray-700">
+                    Home
+                </a>
+
+                <a href="about.html"
+                class="block font-medium text-gray-700">
+                    About
+                </a>
+
+                <!-- MOBILE SERVICES -->
+                <div>
+
+                    <button id="services-btn"
+                            class="w-full text-left font-medium text-gray-700 flex justify-between">
+
+                        Services
+                        <span>+</span>
+
+                    </button>
+
+                    <div id="services-menu"
+                        class="hidden mt-2 ml-4 space-y-2">
+
+                        <a href="loans.html" class="block">
+                            Loans
+                        </a>
+
+                        <a href="savings.html" class="block">
+                            Savings
+                        </a>
+
+                        <a href="investments.html" class="block">
+                            Investments
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <a href="contact.html"
+                class="block font-medium text-gray-700">
+                    Contact
+                </a>
+
+                <hr>
+
+                <a href="#"
+                class="block text-center py-3 rounded-lg border border-blue-700 text-blue-700">
+
+                    Login
+
+                </a>
+
+                <a href="#"
+                class="block text-center py-3 rounded-lg bg-blue-700 text-white">
+
+                    Apply Now
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
